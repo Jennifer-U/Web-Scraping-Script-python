@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests 
 from lxml import etree #parses HTML content retrieved from the URL
 import pandas as pd
+
 url = 'https://www.scrapethissite.com/pages/simple/'
 
 response=requests.get(url)
